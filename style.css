@@ -1,1 +1,26 @@
+.container-1 {
+    font-family: monospace;
+    
+}
 
+ ul   {
+   list-style-type: none;
+}
+
+a {
+    text-decoration: none; 
+}
+
+.container-1 {
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+ul {
+    gap: 12px;
+    display: flex;
+    flex-direction: row;
+    
+}
