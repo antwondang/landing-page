@@ -1,6 +1,9 @@
 .container-1 {
     font-family: monospace;
-    
+    background-color: rgba(21, 35, 186, 0.884);
+    color: white;
+    display: flex;
+    flex: auto;
 }
 
  ul   {
@@ -9,6 +12,7 @@
 
 a {
     text-decoration: none; 
+    color: white;
 }
 
 .container-1 {
@@ -19,8 +23,26 @@ a {
 }
 
 ul {
-    gap: 12px;
+    gap: 15px;
     display: flex;
     flex-direction: row;
     
+}
+
+.subcontainer {
+    font-family: monospace;
+    background-color: rgba(21, 35, 186, 0.884);
+    color: white; 
+    padding: 8px;
+}
+
+.image {
+    background-color: grey;
+    padding: 8px;
+    display: flex;
+    margin: 20px;
+}
+
+h2 {
+    flex-direction: row;
 }
