@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
 .container-1 {
     font-family: monospace;
     background-color: rgba(21, 35, 186, 0.884);
@@ -16,7 +22,7 @@ a {
 }
 
 .container-1 {
-    padding: 8px;
+    padding: 20px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -30,19 +36,38 @@ ul {
 }
 
 .subcontainer {
+    display: flex;
+    height: 88%;
+    align-items: center;
     font-family: monospace;
     background-color: rgba(21, 35, 186, 0.884);
     color: white; 
-    padding: 8px;
+    padding: 20px;
 }
 
-.image {
+.row {
+    flex-basis: 50%;
+}
+
+.picture h5 {
     background-color: grey;
-    padding: 8px;
-    display: flex;
-    margin: 20px;
+    height: 100px;
+    width: 300px;
+    text-align: center;
+    line-height: 9;
 }
 
-h2 {
-    flex-direction: row;
+.row p {
+    margin-top: 10px;
+}
+
+button {
+    width: 180px;
+    font-size: 13px;
+    background: lightblue;
+    border: 0;
+    border-radius: 20px;
+    outline: none;
+    padding: 12px 0;
+    margin-top: 20px;
 }
