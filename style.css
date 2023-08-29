@@ -42,7 +42,7 @@ ul {
     font-family: monospace;
     background-color: rgba(21, 35, 186, 0.884);
     color: white; 
-    padding: 20px;
+    padding: 75px;
 }
 
 .row {
@@ -75,6 +75,7 @@ button {
 .some-random-info {
     text-align: center;
     margin-top: 20px;
+    padding: 30px;
 }
 
 .row2 {
@@ -82,11 +83,36 @@ button {
     flex-direction: row;
     justify-content: space-between;
     margin-top: 20px;
-    padding: 60px;
+    padding: 75px;
+    margin-left: 30px;
 }
 
 .pog1 {
     padding: 20px;
     width: 100px;
     height: 100px;
+    outline-style: solid;
+    border-radius: 25px;
+}
+
+.pog2 {
+    padding: 20px;
+    width: 100px;
+    height: 100px;
+    outline-style: solid;
+    border-radius: 25px;
+}
+.pog3 {
+    padding: 20px;
+    width: 100px;
+    height: 100px;
+    outline-style: solid;
+    border-radius: 25px;
+}
+.pog4 {
+    padding: 20px;
+    width: 100px;
+    height: 100px;
+    outline-style: solid;
+    border-radius: 25px;
 }
